@@ -1,5 +1,6 @@
 :root {
-  --secondary-color: #019bad;
+  --primary-color: rgba(1, 156, 173, 0.1);
+  --secondary-color: #019cad;
   --box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -30,13 +31,17 @@ p {
 }
 
 #weather-app {
-  max-width: 350px;
+  max-width: 330px;
 }
 
 .img-wrap {
-  background-color: #f8f9fa;
+  background-color: var(--primary-color);
   border-radius: 4px;
   box-shadow: var(--box-shadow);
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 450px;
 }
 
 .hi-heading {
