@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rebecca is a Front-End Developer based in Mobile, Alabama."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -30,7 +34,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Rebecca Shuping</title>
+    <title>Front-End Developer-Rebecca Shuping</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
@@ -52,23 +56,31 @@
             <a
               class="nav-link active active-page"
               aria-current="page"
+              title="Homepage"
               href="index.html"
               >Home</a
             >
-            <a class="nav-link" href="about.html">About</a>
-            <a class="nav-link" href="mywork.html">Projects</a>
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" title="About Rebecca" href="about.html"
+              >About</a
+            >
+            <a class="nav-link" title="Rebecca's Projects" href="mywork.html"
+              >Projects</a
+            >
+            <a class="nav-link" title="Contact Rebecca" href="contact.html"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
     </nav>
     <div class="hero">
       <h1>Hello! I'm <strong>Rebecca Shuping.</strong></h1>
-      <h2 class="mb-5">A front-end developer based in Alabama.</h2>
+      <h2 class="based-in">A front-end developer based in Alabama.</h2>
+      <h3 class="mb-3 check-out-projects">Check out my recent projects!</h3>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 d-flex justify-content-center mt-5">
+        <div class="col-lg-4 d-flex justify-content-center mt-2">
           <div class="d-flex justify-content-center weather-img-wrap">
             <img
               src="images/weather-app.png"
@@ -77,21 +89,21 @@
             />
           </div>
         </div>
-        <div class="col-lg-4 d-flex justify-content-center mt-5">
-          <!--these will display other projects once I have more to display using duplicate just for refrence and to arrange spacing-->
-          <div class="weather-img-wrap">
+        <div class="col-lg-4 d-flex justify-content-center mt-2">
+          <div class="d-flex justify-content-center img-wrap">
             <img
-              src="images/weather-app.png"
-              alt="weather app"
-              class="img-fluid weather-app"
+              src="images/cnfsite.png"
+              alt="Cherokee National Forest Project"
+              class="img-fluid text-center rounded project-images"
             />
           </div>
         </div>
-        <div class="col-lg-4 d-flex justify-content-center mt-5">
+        <!--these will display other projects once I have more to display using duplicate just for refrence and to arrange spacing-->
+        <div class="col-lg-4 d-flex justify-content-center mt-2">
           <div class="d-flex justify-content-center weather-img-wrap">
             <img
               src="images/weather-app.png"
-              alt="weather app"
+              alt="Weather App"
               class="img-fluid weather-app"
             />
           </div>
@@ -102,25 +114,35 @@
     <footer>
       <div class="d-flex justify-content-evenly">
         <div class="outside-page-links">
-          <a href="https://www.instagram.com/rebeccashuping/" target="_blank"
+          <a
+            href="https://www.instagram.com/rebeccashuping/"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
         <div class="outside-page-links">
-          <a href="https://www.linkedin.com/in/rebecca-shuping" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/rebecca-shuping"
+            target="_blank"
+            title="LinkedIn Profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
         <div class="outside-page-links">
-          <a href="mailto:rlswebdeveloper@gmail.com"
+          <a href="mailto:rlswebdeveloper@gmail.com" title="Email"
             ><i class="fa-solid fa-envelope"></i
           ></a>
         </div>
         <div class="outside-page-links">
-          <a href="https://github.com/rsm917" target="_blank"
+          <a href="https://github.com/rsm917" target="_blank" title="GitHub"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+      </div>
+      <div class="text-center text-muted mt-3 mb-3 coded-by">
+        This site was coded by Rebecca Shuping and is
+        <a href="#" target="_blank">open-sourced.</a>
       </div>
     </footer>
   </body>
