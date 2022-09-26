@@ -102,6 +102,8 @@ a {
 .about-paragraph {
   padding: 0 20px;
   margin-top: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #project-launch-button {
