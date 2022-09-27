@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 100px 20px 0px 20px;
+  margin: 100px 20px 10px 20px;
 }
 
 #brand {
@@ -17,6 +17,7 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
   text-align: center;
+  font-size: 36px;
 }
 h2 {
   font-size: 24px;
@@ -38,8 +39,12 @@ p {
 }
 a {
   text-decoration: none;
+  color: var(--secondary-color);
 }
-
+.check-out-projects a :hover {
+  text-decoration: underline !important;
+  color: var(--secondary-color) !important;
+}
 .based-in {
   margin-bottom: 80px;
 }
@@ -100,7 +105,7 @@ a {
 }
 
 #headshot {
-  max-width: 300px;
+  max-width: 200px;
   box-shadow: var(--box-shadow);
 }
 
@@ -128,15 +133,11 @@ a {
 
 #connect {
   margin-top: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 footer {
-  margin-top: 40px;
-  position: relative;
-  bottom: 5;
-  height: 24px;
-  width: 100%;
+  margin-top: 100px;
 }
 
 .outside-page-links {
@@ -159,4 +160,23 @@ footer {
 
 .coded-by {
   font-size: 15px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 900px) {
+  .img-wrap {
+    margin-bottom: 20px;
+  }
+  #headshot,
+  .about-paragraph,
+  .hi-heading {
+    display: flex;
+    justify-content: center;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 20px;
+  }
 }
