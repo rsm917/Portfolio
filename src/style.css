@@ -119,9 +119,7 @@ a {
 .mb-button {
   margin-bottom: 34px;
 }
-.container-fluid {
-  overflow-x: auto;
-}
+
 .project-launch-button {
   padding: 15px 20px;
   background: white;
