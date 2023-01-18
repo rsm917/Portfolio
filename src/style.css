@@ -55,17 +55,6 @@ a {
   justify-content: center;
 }
 
-/*.weather-img-wrap {
-  background: #f8f9fa;
-  border: 1px solid #f8f9fa;
-  border-radius: 4px;
-  box-shadow: var(--box-shadow);
-  display: flex;
-  padding: 35px 7px 35px 7px;
-  max-width: 400px;
-}
-*/
-
 .img-fluid {
   max-width: 250px;
 }
@@ -78,12 +67,7 @@ a {
   font-weight: bold;
   color: var(--secondary-color) !important;
 }
-/*.project-images {
-  max-width: 250px;
-  display: flex;
-  justify-content: center;
-}
-*/
+
 .img-wrap {
   background-color: #f8f9fa;
   border-radius: 4px;
@@ -105,7 +89,7 @@ a {
 }
 
 #headshot {
-  max-width: 250px;
+  max-width: 225px;
   box-shadow: var(--box-shadow);
 }
 
